@@ -2,10 +2,9 @@ use_frameworks!
 
 target 'LFTransferTool_Example' do
   pod 'LFTransferTool', :path => '../'
+end
 
-  target 'LFTransferTool_Tests' do
-    inherit! :search_paths
 
-    
-  end
+target 'LFTransferTool-Example-Mac' do
+  pod 'LFTransferTool', :path => '../'
 end

@@ -8,27 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		0077B71822E75A66A51939BD /* Pods_LFTransferTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B93A32FFCE6300D0335929 /* Pods_LFTransferTool_Example.framework */; };
+		0E373C174773C81F07EA14A8 /* Pods_LFTransferTool_Example_Mac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 244FFD9574AA9B6076C2D33C /* Pods_LFTransferTool_Example_Mac.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		CF903AAA88BF2B21B807F25C /* Pods_LFTransferTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D643BE9B9D8EF083D93068AD /* Pods_LFTransferTool_Tests.framework */; };
+		F90B9A22241CA41700A89392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B9A21241CA41700A89392 /* AppDelegate.swift */; };
+		F90B9A24241CA41700A89392 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90B9A23241CA41700A89392 /* ContentView.swift */; };
+		F90B9A26241CA41800A89392 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B9A25241CA41800A89392 /* Assets.xcassets */; };
+		F90B9A29241CA41800A89392 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90B9A28241CA41800A89392 /* Preview Assets.xcassets */; };
+		F90B9A2C241CA41800A89392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90B9A2A241CA41800A89392 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = LFTransferTool;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		0315C2B831F8FDDAAC814DFF /* Pods-LFTransferTool-Example-Mac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool-Example-Mac.debug.xcconfig"; path = "Target Support Files/Pods-LFTransferTool-Example-Mac/Pods-LFTransferTool-Example-Mac.debug.xcconfig"; sourceTree = "<group>"; };
 		16B93A32FFCE6300D0335929 /* Pods_LFTransferTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFTransferTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		244FFD9574AA9B6076C2D33C /* Pods_LFTransferTool_Example_Mac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFTransferTool_Example_Mac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		345125DE6EE381C9268A9476 /* Pods-LFTransferTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LFTransferTool_Tests/Pods-LFTransferTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		52418433A026D56E860B6D96 /* Pods-LFTransferTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-LFTransferTool_Example/Pods-LFTransferTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LFTransferTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFTransferTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,15 +34,23 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* LFTransferTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFTransferTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		87D578308B31A15D8B79D32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		A8327D34CA28606F07E0A50E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ABEC53874929683AC3AC9B80 /* LFTransferTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LFTransferTool.podspec; path = ../LFTransferTool.podspec; sourceTree = "<group>"; };
+		87D578308B31A15D8B79D32B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A8327D34CA28606F07E0A50E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ABEC53874929683AC3AC9B80 /* LFTransferTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LFTransferTool.podspec; path = ../LFTransferTool.podspec; sourceTree = "<group>"; };
+		B4E4EF683672F2260D37227E /* Pods-LFTransferTool-Example-Mac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool-Example-Mac.release.xcconfig"; path = "Target Support Files/Pods-LFTransferTool-Example-Mac/Pods-LFTransferTool-Example-Mac.release.xcconfig"; sourceTree = "<group>"; };
 		D643BE9B9D8EF083D93068AD /* Pods_LFTransferTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LFTransferTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4D16DF446F458FF27E4923 /* Pods-LFTransferTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool_Example.release.xcconfig"; path = "Target Support Files/Pods-LFTransferTool_Example/Pods-LFTransferTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3E2B57159B930625AD33BBF /* Pods-LFTransferTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFTransferTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-LFTransferTool_Tests/Pods-LFTransferTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F90B9A1F241CA41700A89392 /* LFTransferTool-Example-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LFTransferTool-Example-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F90B9A21241CA41700A89392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F90B9A23241CA41700A89392 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F90B9A25241CA41800A89392 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F90B9A28241CA41800A89392 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F90B9A2B241CA41800A89392 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F90B9A2D241CA41800A89392 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90B9A2E241CA41800A89392 /* LFTransferTool_Example_Mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LFTransferTool_Example_Mac.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		F90B9A1C241CA41700A89392 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF903AAA88BF2B21B807F25C /* Pods_LFTransferTool_Tests.framework in Frameworks */,
+				0E373C174773C81F07EA14A8 /* Pods_LFTransferTool_Example_Mac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +78,7 @@
 			children = (
 				16B93A32FFCE6300D0335929 /* Pods_LFTransferTool_Example.framework */,
 				D643BE9B9D8EF083D93068AD /* Pods_LFTransferTool_Tests.framework */,
+				244FFD9574AA9B6076C2D33C /* Pods_LFTransferTool_Example_Mac.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
+				F90B9A20241CA41700A89392 /* LFTransferTool-Example-Mac */,
 				607FACD21AFB9204008FA782 /* Example for LFTransferTool */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -94,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* LFTransferTool_Example.app */,
-				607FACE51AFB9204008FA782 /* LFTransferTool_Tests.xctest */,
+				F90B9A1F241CA41700A89392 /* LFTransferTool-Example-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,9 +161,32 @@
 				DA4D16DF446F458FF27E4923 /* Pods-LFTransferTool_Example.release.xcconfig */,
 				345125DE6EE381C9268A9476 /* Pods-LFTransferTool_Tests.debug.xcconfig */,
 				F3E2B57159B930625AD33BBF /* Pods-LFTransferTool_Tests.release.xcconfig */,
+				0315C2B831F8FDDAAC814DFF /* Pods-LFTransferTool-Example-Mac.debug.xcconfig */,
+				B4E4EF683672F2260D37227E /* Pods-LFTransferTool-Example-Mac.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F90B9A20241CA41700A89392 /* LFTransferTool-Example-Mac */ = {
+			isa = PBXGroup;
+			children = (
+				F90B9A21241CA41700A89392 /* AppDelegate.swift */,
+				F90B9A23241CA41700A89392 /* ContentView.swift */,
+				F90B9A25241CA41800A89392 /* Assets.xcassets */,
+				F90B9A2A241CA41800A89392 /* Main.storyboard */,
+				F90B9A2D241CA41800A89392 /* Info.plist */,
+				F90B9A2E241CA41800A89392 /* LFTransferTool_Example_Mac.entitlements */,
+				F90B9A27241CA41800A89392 /* Preview Content */,
+			);
+			path = "LFTransferTool-Example-Mac";
+			sourceTree = "<group>";
+		};
+		F90B9A27241CA41800A89392 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F90B9A28241CA41800A89392 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,24 +211,24 @@
 			productReference = 607FACD01AFB9204008FA782 /* LFTransferTool_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* LFTransferTool_Tests */ = {
+		F90B9A1E241CA41700A89392 /* LFTransferTool-Example-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LFTransferTool_Tests" */;
+			buildConfigurationList = F90B9A2F241CA41800A89392 /* Build configuration list for PBXNativeTarget "LFTransferTool-Example-Mac" */;
 			buildPhases = (
-				8051E912B0F954BFD59CAC39 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
+				2C2A9C8182BF5386A78B0EC6 /* [CP] Check Pods Manifest.lock */,
+				F90B9A1B241CA41700A89392 /* Sources */,
+				F90B9A1C241CA41700A89392 /* Frameworks */,
+				F90B9A1D241CA41700A89392 /* Resources */,
+				465DE8DFEB6A07C2378CBA07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = LFTransferTool_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* LFTransferTool_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = "LFTransferTool-Example-Mac";
+			productName = "LFTransferTool-Example-Mac";
+			productReference = F90B9A1F241CA41700A89392 /* LFTransferTool-Example-Mac.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,18 +236,19 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 8Y2577YSMW;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+					F90B9A1E241CA41700A89392 = {
+						CreatedOnToolsVersion = 11.3;
+						DevelopmentTeam = FYH9DJCSXA;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -227,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +267,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* LFTransferTool_Example */,
-				607FACE41AFB9204008FA782 /* LFTransferTool_Tests */,
+				F90B9A1E241CA41700A89392 /* LFTransferTool-Example-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -252,16 +283,59 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		F90B9A1D241CA41700A89392 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90B9A2C241CA41800A89392 /* Main.storyboard in Resources */,
+				F90B9A29241CA41800A89392 /* Preview Assets.xcassets in Resources */,
+				F90B9A26241CA41800A89392 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2C2A9C8182BF5386A78B0EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFTransferTool-Example-Mac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		465DE8DFEB6A07C2378CBA07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LFTransferTool-Example-Mac/Pods-LFTransferTool-Example-Mac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LFTransferTool-macOS/LFTransferTool.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LFTransferTool.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LFTransferTool-Example-Mac/Pods-LFTransferTool-Example-Mac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		66C840E79A0EC5A174521A0E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,28 +358,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8051E912B0F954BFD59CAC39 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-LFTransferTool_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		FB64296B4E06631AF8F2E915 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,7 +365,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LFTransferTool_Example/Pods-LFTransferTool_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/LFTransferTool/LFTransferTool.framework",
+				"${BUILT_PRODUCTS_DIR}/LFTransferTool-iOS/LFTransferTool.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -336,23 +388,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		F90B9A1B241CA41700A89392 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				F90B9A24241CA41700A89392 /* ContentView.swift in Sources */,
+				F90B9A22241CA41700A89392 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* LFTransferTool_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
@@ -369,6 +414,14 @@
 				607FACDF1AFB9204008FA782 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F90B9A2A241CA41800A89392 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F90B9A2B241CA41800A89392 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -478,7 +531,9 @@
 			baseConfigurationReference = 52418433A026D56E860B6D96 /* Pods-LFTransferTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2577YSMW;
 				INFOPLIST_FILE = LFTransferTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +548,9 @@
 			baseConfigurationReference = DA4D16DF446F458FF27E4923 /* Pods-LFTransferTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8Y2577YSMW;
 				INFOPLIST_FILE = LFTransferTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -503,43 +560,70 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		F90B9A30241CA41800A89392 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 345125DE6EE381C9268A9476 /* Pods-LFTransferTool_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0315C2B831F8FDDAAC814DFF /* Pods-LFTransferTool-Example-Mac.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "LFTransferTool-Example-Mac/LFTransferTool_Example_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"LFTransferTool-Example-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = FYH9DJCSXA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "LFTransferTool-Example-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hwp.LFTransferTool-Example-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFTransferTool_Example.app/LFTransferTool_Example";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		F90B9A31241CA41800A89392 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E2B57159B930625AD33BBF /* Pods-LFTransferTool_Tests.release.xcconfig */;
+			baseConfigurationReference = B4E4EF683672F2260D37227E /* Pods-LFTransferTool-Example-Mac.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = "LFTransferTool-Example-Mac/LFTransferTool_Example_Mac.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"LFTransferTool-Example-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = FYH9DJCSXA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "LFTransferTool-Example-Mac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hwp.LFTransferTool-Example-Mac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFTransferTool_Example.app/LFTransferTool_Example";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -564,11 +648,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "LFTransferTool_Tests" */ = {
+		F90B9A2F241CA41800A89392 /* Build configuration list for PBXNativeTarget "LFTransferTool-Example-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				F90B9A30241CA41800A89392 /* Debug */,
+				F90B9A31241CA41800A89392 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
